@@ -1,66 +1,52 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-## About Laravel
+# Website IPPMP-UH
 
 Website IPPMP-UH adalah website resmi dari organisasi Ikatan Pemuda Pelajar Mahasiswa Pangkep Universitas Hasanuddin:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Requirements
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Laravel 9.0
+- Php 8
 
-## Learning Laravel
+## Frameworks & Plugins
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Tailwind css
+- Daisy UI
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Features
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Public
 
-## Laravel Sponsors
+- Melihat halaman utama (/)
+- Melihat berita ippmp-uh (/blogs)
+- Melihat detail berita ippmp-uh (/blogs/slug)
+- Melihat struktur dan program kerja (/organization)
+- Melihat daftar jualan kewirausahaan (/business)
+- Search jualan dari judul (/business?search=...)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### User
 
-### Premium Partners
+- Register (/register)
+- Login (/login)
+- Edit profil (/profile)
+- Melihat file ippmp-uh (/files)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+### Admin
 
-## Contributing
+- CRUD User (/dashboard/users)
+- CRUD berita ippmp-uh (/dashboard/blogs)
+- Edit struktur dan program kerja (/dashboard/organization)
+- CRUD jualan kewirausahaan (/dashboard/books)
+- CRUD file ippmp-uh (/dashboard/files)
+- Edit konten halaman utama (/dashboard/organization)
+- Edit struktur dan program kerja (/dashboard/organization)
+- Melihat pengunjung website (/dashboard/stats)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### User Story
 
-## Code of Conduct
+saya Opi mau pinjam buku lewat website perpusApps, pertama saya mengunjungi website tersebut kemudian memilih buku yang akan saya pinjam yaitu "kisah perjuangan 5 tentara untuk memajukan Clan KPIV 5B", kemudian saya disuruh memasukan NIK , setelah saya masukan NIK ternyata muncul keterangan NIK belum terdaftar pada sitsem perpus ini, lalu disuruh untuk melakukan pendaftaran lewat form yang tersedia atau melalui admin perpus di balai desa. setelah beberapa waktu ketika saya longgar saya pergi ke balai desa untuk melakukan pendaftaran karena saya termasuk orang kudet tidak bisa mengisi form, saya diminta menyerahkan KTP, setelah beberapa waktu akhirnya proses pendaftaran selesai.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Esok harinya saya mengunjungi website perpusApps kembali untuk melakukan peminjaman melalui website dan sukse. saya kembali ke balai desa untuk mengambil buku, saya diminta NIK saya, setelah di cek NIK ada dalam daftar peminjam yang akan mengambil buku, maka admin mengambilkan buku untuk saya.
+3 hari kemudian setelah menyelesaikan membaca buku (3420 hal) ini, saya pergi ke balai desa untuk mengembalikan buku, saya diminta NIK lagi , setelah status saya di ubah ke sudah mengembalikan akhirnya saya pulang dengan rasa bangga dan penuh dengan full senyum.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Karena minat baca saya ini sangat tinggi melebihi orang normal biasanya, keesokan harinya saya sudah haus untuk membaca lagi namun kali ini saya ingin membaca melalui website saja karena kemarin pas mengembalika buku ban sepeda saya gembos dan belum saya tembal. saya mengunjungi website perpusApps, setelah melihat katalog saya ingin membaca buku yang berjudul "cerita mistis dibalik clan KPIV 5B", saya klik baca dan disuruh memasukan NIK karena NIK saya sudah terdaftar akhirnya saya bisa membaca buku tersebut dengan mudah. dengan adanya sistem perpusApps ini kehausan saya akan membaca buku sangat terlampiaskan, terimakasih temen - temen Universitas Muhammadiyah dan tim Developer dari Germa- studio.
